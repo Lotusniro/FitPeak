@@ -1,0 +1,77 @@
+[
+    {
+      "name": "Dumbell",
+      "description": "Fit-peak Dumbbells are made of solid cast iron with a protective black rubber coating.",
+      "price": 50,
+     "image": "./dumbbell.jpeg"
+    },
+    {
+      "name": "Barbell",
+      "description": "Fit-peak Barbell is a long iron bar that is used for weightlifting. It is a standard piece of equipment in most commercial gyms.",
+      "price": 150,
+      "image": "./barbell2.jpeg"
+    },
+    {
+      "name": "Kettlebell",
+      "description": "Kettlebell is a cast iron or cast steel ball with a handle attached to the top (resembling a cannonball with a handle).",
+      "price": 55,
+      "image": "./kettlebell.jpeg"
+    },
+    {
+      "name": "Weight plate",
+      "description": "Weight plates are a type of weight training equipment that are used to add resistance to adjustable barbells and dumbbells, as well as plate-loaded weight machines.",
+      "price": 150,
+      "image": "./weightplates.jpeg"
+    },
+    {
+      "name": "Resistance band",
+      "description": "Fit-peak Resistance bands are elastic bands made of latex tubing used for strength training. They are light weight, portable and space saving exercise equipment.",
+      "price": 10,
+      "image": "./resistanceband.jpeg"
+    },
+    {
+      "name": "Medicine ball",
+      "description": "Fit-peak Medicine balls are weighted balls that are used to help improve strength, coordination, and balance. They are used for a variety of exercises and are a great tool for rehabilitation from injury.",
+      "price": 50,
+      "image": "./medicineball.jpeg"
+    },
+    {
+      "name": "Jump rope",
+      "description": "Fit-peak Jump rope is a tool used in the sport of skipping/jump rope where one or more participants jump over a rope swung so that it passes under their feet and over their heads.",
+      "price": 15,
+      "image": "./jumprope.jpeg"
+    },
+    {
+      "name": "Yoga mat",
+      "description": "Fit-peak Yoga mat is a specially fabricated mat used as an aid during the practice of hatha yoga to prevent hands and feet slipping during asana practice.",
+      "price": 35,
+      "image": "./yogamat.jpeg"
+    },
+    {
+      "name": "Foam roller",
+      "description": "Fit-peak Foam roller is a lightweight, cylindrical tube of compressed foam. It is used for many myofascial release exercises.",
+      "price": 20,
+      "image": "./Foam roller.jpeg"
+    },
+    {
+      "name": "Balance ball",
+      "description": "Fit-peak Balance ball is an exercise ball also known as a Swiss Ball, is a ball constructed of soft elastic with a diameter of approximately 35 to 85 centimeters (14 to 34 inches) and filled with air.",
+      "price": 55,
+      "image": "./balanceball.jpeg"
+    },
+    
+    {
+      "name": "Bottle",
+      "description": "Fit-peak Bottle is a container with a narrow neck that can be used to store and transport water. It is made of plastic and is reusable.",
+      "price": 10,
+      "image": "./gymbottle.jpeg"
+    },
+    {
+      "name": "Shoes",
+      "description": "Fit-peak Shoes are a type of footwear specifically designed for sports and physical exercise. They are typically made of flexible materials and feature a sole made of dense rubber.",
+      "price": 30,
+      "image": "./shoes.jpeg"
+    }
+
+
+  ]

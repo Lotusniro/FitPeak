@@ -1,0 +1,124 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.store{
+
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  margin: 50px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+  
+   .product {
+    flex: 0 0 calc(33% - 20px); /* Adjust the width as per your requirement */
+    margin: 10px;
+  } 
+
+  
+
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+   
+
+  }
+
+ .shop-but{
+    background-color: #fca311; /* Green */
+     color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+   
+  }
+
+  .but {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    max-width: 200px;
+  }
+  .but:hover{
+    background-color: #3b6fd8;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .proceed{
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .proceed:hover{
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .shopping-cart{
+    background-color: #3b15a4;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .hee{
+    color: #003566;
+  }
+  .heel{
+    margin:10px;
+  }
+
+/* media query for small screen */
+
+@media screen and (max-width: 768px) {
+  .store{
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }}
+  

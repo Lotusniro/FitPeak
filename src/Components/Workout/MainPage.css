@@ -1,0 +1,25 @@
+.filter-options {
+  margin-bottom: 20px;
+}
+
+.exercise-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text {
+  color: rgb(71, 70, 70);
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  padding: 15px;
+}
+

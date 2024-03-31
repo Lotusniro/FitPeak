@@ -1,0 +1,90 @@
+.main{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+   
+}
+
+.checkout{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 20px 0;
+    padding: 20px;
+ 
+    border-radius: 5px;
+    background-color: #edede9;
+}
+
+.bbbn{
+    width: 50%;
+    background-color: #ffb703;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.bbbn:hover{
+    background-color: #09307d;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bbbn:active{
+    background-color: #3b15a4;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.giffy{
+    background-image: url('./shopping.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 50vh;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .checkout{
+        width: 80vw;
+    }
+    .giffy{
+        width: 80vw;
+        height: 30vh;
+    }
+    
+}

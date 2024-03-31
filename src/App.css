@@ -1,0 +1,14 @@
+
+footer {
+    position: sticky !important;
+    bottom: 0;
+    padding: 14px;
+    width: 100%;
+    background: #8ef4f693;
+    color: #eee;
+    margin-top: 50px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+}

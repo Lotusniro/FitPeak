@@ -1,0 +1,86 @@
+/* Container for exercise cards */
+.exercise-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0.8fr);
+  gap: 100px;
+  padding: 120px;
+}
+
+/* Individual exercise card */
+.exercise-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+
+/* Green exercise card */
+.green-card {
+  background-color: #80ff80;
+ 
+  border: 1px solid #008000;
+}
+
+/* Blue exercise card */
+.blue-card {
+  background-color: #80bfff;
+  /* border: 1px solid #0000ff; */
+}
+
+/* Red exercise card */
+.red-card {
+  background-color: #ff8080;
+  border: 1px solid #800000;
+}
+
+.exercise-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.exercise-details {
+  flex-grow: 1;
+}
+
+.exercise-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.exercise-info {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.exercise-label {
+  font-weight: 600;
+}
+
+.view-instructions-link {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff; /* Set your desired text color */
+  text-transform: capitalize;
+  background-color: #7cb100; /* Set your desired background color */
+  font-family: 'Roboto', sans-serif; /* Set your desired font family */
+  font-size: 18px; /* Set your desired font size */
+  padding: 20px 0px;
+  width: 150px;
+  border-radius: 4px; /* Set your desired border radius */
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.view-instructions-link:hover {
+  background-color: #04550b; /* Set your desired hover background color */
+  transform: scale(1.05); /* Use transform to scale the button on hover */
+}
+
+.equipment-icon {
+  margin-left: 5px;
+  font-size: 24px;
+}

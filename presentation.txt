@@ -1,0 +1,3 @@
+DescriptionWelcome to the FIT-PEAK app. The only app that will let you explore different exercises, at different levels with detailed instructions and follow-along tutorials. This app will help you build the perfect fitness routine at a level that you are most comfortable.
+ If you're a beginner or a fitness geek, you will find all that you need to on this app. We wanted to build this app because the gym can sometimes be really daunting, especially if you are a beginner, everyone seems to always know how to do everything! 
+Our solution was to create an app where you can find easy step-by-step guidelines to an exercise that you want to try, and if reading isn't what you want to do in the gym then worry not! We've given you videos to help you improve your form!

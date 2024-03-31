@@ -1,0 +1,100 @@
+.mainbanner{
+    width: 100vw;
+    height: 600px;
+    background-image: url('/nnn.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    /* color: white; */
+    padding: 100px;
+    opacity: 0.9;
+  
+    
+
+    
+}
+
+.forhead{
+    /* font-size: 3rem;
+    font-weight: 700; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 50vw;
+    /* margin: 0 auto; */
+    padding-top: 20px;
+  
+}
+.forhead span{
+    font-size: 5rem;
+    font-weight: 500;
+    /* margin-bottom: 20px; */
+    display: flex;
+    color:#032b43;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p1{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p2{
+    font-size: 1.5rem;
+    margin-left: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.mainbanner2{
+    width: 100vw;
+    height: 100px;
+    background-color: #45cfc6;
+   
+  
+}
+
+.hhh{
+    background-color: aqua;
+   
+}
+
+.linku{
+    text-decoration: none;
+    color: white;
+    background-color:#03045e;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.linku:hover{
+    background-color: #45cfc6;
+    color: black;
+}
+@media screen and (max-width: 768px){
+    .mainbanner{
+        height: 400px;
+        padding: 50px;
+    }
+    .forhead{
+        width: 80vw;
+    }
+    .forhead span{
+        font-size: 3rem;
+    }
+    .p1{
+        font-size: 2rem;
+    }
+    .p2{
+        font-size: 0.8rem;
+    }
+}
